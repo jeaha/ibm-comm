@@ -1,4 +1,4 @@
-# ibm-comm
+# sample
 # Development
 
 This section describes how to run locally.  
