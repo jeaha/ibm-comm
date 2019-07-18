@@ -1,0 +1,11 @@
+id, name, location, job role, department, subscription
+728510,Lola Montgomery,DC,admin,uPext,finance
+080743,Ernest Ruiz,DE,supplement,IUYyg,sports
+127159,Cornelia Fowler,VA,manager,KdZAO,sports
+409156,Gordon Quinn,MO,programmer,tJzKi,politics
+060199,Ian Snyder,NH,supplement,zcVcF,politics
+404191,Alta Wheeler,HI,programmer,FbApP,finance
+464235,Hattie Griffith,CA,admin,rgBpl,politics
+367789,Randall Snyder,SC,programmer,bxRRV,politics
+622700,Tyler Wolfe,OH,programmer,PMbkO,sports
+956064,Marie Ray,HI,supplement,qjRyf,politics

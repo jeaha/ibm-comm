@@ -1,0 +1,58 @@
+{
+  "name": "simple-recommend",
+  "version": "1.0.0",
+  "description": "a simple recommendation system to match relevant news headlines to internal employees",
+  "main": "index.js",
+  "scripts": {
+    "build": "gulp scripts",
+    "test": "mocha --reporter spec --compilers ts:ts-node/register './src/test/**/*.test.ts'",
+    "dev": "ts-node ./src/server.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jeaha/simple-recommend.git"
+  },
+  "author": "Jeaha Yang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jeaha/simple-recommend/issues"
+  },
+  "homepage": "https://github.com/jeaha/simple-recommend#readme",
+  "dependencies": {
+    "@types/cookie-parser": "^1.4.1",
+    "@types/morgan": "^1.7.35",
+    "@types/swagger-jsdoc": "0.0.2",
+    "@types/swagger-ui-express": "^3.0.1",
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.4",
+    "csv": "^5.1.1",
+    "csv-parse": "^4.4.3",
+    "csvtojson": "^2.0.10",
+    "debug": "^2.2.0",
+    "express": "^4.14.0",
+    "moment": "^2.24.0",
+    "mongoose-morgan": "^1.0.8",
+    "morgan": "^1.9.1",
+    "swagger-jsdoc": "^3.3.0",
+    "swagger-model-validator": "^3.0.11",
+    "swagger-ui-express": "^4.0.7",
+    "ts-node": "^8.3.0"
+  },
+  "devDependencies": {
+    "@types/chai": "^3.4.34",
+    "@types/chai-http": "0.0.29",
+    "@types/csv-parse": "^1.2.2",
+    "@types/debug": "0.0.29",
+    "@types/express": "^4.0.33",
+    "@types/mocha": "^2.2.32",
+    "@types/node": "^6.0.46",
+    "chai": "^3.5.0",
+    "chai-http": "^3.0.0",
+    "core-js": "^3.1.4",
+    "gulp": "^3.9.1",
+    "gulp-typescript": "^3.1.1",
+    "mocha": "^3.1.2",
+    "typescript": "^2.9.2"
+  },
+  "keywords": []
+}
