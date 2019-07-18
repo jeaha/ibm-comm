@@ -23,12 +23,12 @@ This services should have a public API that takes the publication date as input 
 ## APIs
 - Mange employees
     - List all employees : `GET /employees` 
-    - List all employes for a given subscription type : `GET /employees/subscription/{subscriptionType}`
+    - List all employes for a given subscription type : `GET /employees/subscription/{subscriptionType}` (i.e. politics, finance, sports)
     - Load more employees: `POST /employees` (Not implmented)
 - Manage headlines
     - List all headlines : `GET /headlines` 
-    - List all headlines for a given category( for matching subscription type) : `GET /headlines/category/{category}`
-    - List all headlines for a given date : `GET /headlines/date/{date}`
+    - List all headlines for a given category( for matching subscription type) : `GET /headlines/category/{category}`  (i.e. politics, finance, sports)
+    - List all headlines for a given date : `GET /headlines/date/{date}`  (i.e. 08/15/1972)
     - Load more headlines: `POST /headlines` (Not implmented)
 - recommendation
     - List all headlines for a given date and a subscription type : `GET /headlines/date/{date}/category/{category}`
