@@ -8,7 +8,8 @@ This services should have a public API that takes the publication date as input 
 
 ### Quick Start
 
-1. Will be added after deploy to cloud.
+Swagger API has been deployed to IBM Cloud
+http://simple-recommend.us-east.mybluemix.net/api/docs/
 
 
 ## Getting started (Running locally)

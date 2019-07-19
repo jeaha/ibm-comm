@@ -6,7 +6,11 @@
   "scripts": {
     "build": "gulp scripts",
     "test": "mocha --reporter spec --compilers ts:ts-node/register './src/test/**/*.test.ts'",
-    "dev": "ts-node ./src/server.ts"
+    "start": "ts-node ./src/server.ts"
+  },
+  "engines": {
+    "node": "10.16.0",
+    "npm": "6.9.0"
   },
   "repository": {
     "type": "git",

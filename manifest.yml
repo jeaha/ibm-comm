@@ -1,0 +1,7 @@
+---
+applications:
+ - name: simple-recommend
+   health-check-type: process
+   memory: 256M
+   disk_quota: 512M
+   no-route: false
